@@ -1,5 +1,5 @@
 {% set name = "pyquickbench" %}
-{% set version = "0.2.2" %}
+{% set version = "0.2.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pyquickbench-{{ version }}.tar.gz
-  sha256: 74adcf8326403447e83f94e303fc4608281fa67f2417586bb55d982b137f5dc9
+  sha256: 31769127bb5fc102d397f5c1c37204c7cbfff2df32e97b4dbb4177c899718a28
 
 build:
   noarch: python
